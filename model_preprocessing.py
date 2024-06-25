@@ -12,4 +12,8 @@ test_data['temperature'] = scaler.transform(test_data[['temperature']])
 
 # Сохранение предобработанных данных
 train_data.to_csv('../data/train/train_data_preprocessed.csv', index=False)
+<<<<<<< HEAD
 test_data.to_csv('../data/test/test_data_preprocessed.csv', index=False)
+=======
+test_data.to_csv('../data/test/test_data_preprocessed.csv', index=False)
+>>>>>>> 2c0073f (add)

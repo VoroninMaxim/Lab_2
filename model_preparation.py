@@ -22,4 +22,9 @@ mse = mean_squared_error(y_train, predictions)
 print(f'Mean Squared Error for the train set: (mse)')
 
 # Сохранение модели
+<<<<<<< HEAD
 joblib.dump(model, '../data/model.pkl')
+=======
+joblib.dump(model, '../data/model.pkl')
+
+>>>>>>> 2c0073f (add)
