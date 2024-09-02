@@ -1,8 +1,11 @@
-Build the image:
+## Build the image:
+<hr>
 docker build -t jenkins_python .
-
-Run the container:
+<hr>
+## Run the container:
+<hr>
 docker run --name jenkins -p 8080:8080 -p 5000:5000 jenkins_python:latest
-
-Bash script for Jenkins:
+<hr>
+## Bash script for Jenkins:
+<hr>
 pipeline.sh
